@@ -19,3 +19,18 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 900    

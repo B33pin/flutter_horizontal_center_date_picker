@@ -36,7 +36,6 @@ class _TestPageState extends State<TestPage> {
       color: Colors.grey,
       alignment: Alignment.center,
       child: HorizontalDatePickerWidget(
-        locale: 'ja_JP',
         startDate: startDate,
         endDate: endDate,
         selectedDate: now,
