@@ -50,6 +50,7 @@ class DatePickerController {
   ///[isEnableAnimation] default set as true, jump with animation
   void _scrollToSpecificDateByIndex(int index,
       [bool isEnableAnimation = true]) {
+    print(itemWidth);
     var diff = index - shift;
     if (isEnableAnimation) {
       scrollController?.animateTo(diff * itemWidth,

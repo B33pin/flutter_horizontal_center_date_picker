@@ -55,8 +55,8 @@ class DateItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: Colors.transparent,
-      child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 10),
+      child: Container(
+        width: 52,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

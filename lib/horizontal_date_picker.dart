@@ -237,7 +237,7 @@ class _HorizontalDatePickerWidgetState
 
     controller.scrollController = _scrollController;
     controller.shift = shiftPos;
-    controller.itemWidth = _padding + width;
+    controller.itemWidth = 52;
 
     controller.realStartDate = startDate.subtract(Duration(days: shift));
     controller.selectedDate = selectedDate;
